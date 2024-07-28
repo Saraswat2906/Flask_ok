@@ -6,12 +6,6 @@
         "use": "@vercel/python"
       }
     ],
-     "builds": [
-    {
-      "src": "Dockerfile",
-      "use": "@vercel/docker"
-    }
-  ],
     "routes":[
         {
         "src":"/(.*)",
